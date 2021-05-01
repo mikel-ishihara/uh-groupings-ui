@@ -150,6 +150,15 @@ btn.dark-teal-bg {
     background: #004e59;
 }
 
+.btn.btn-return {
+    /* background: var(--dark-teal);
+     background-image: linear-gradient(to right, var(--dark-teal) 0%, var(--teal) 50%, var(--dark-teal) 100%);
+     border-color: transparent;
+     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    color: #0d7078;
+    background-color: #ffffff;
+}
+
 .btn-outline-secondary:hover,
 .btn-outline-secondary:focus,
 .btn-outline-secondary:active {
@@ -262,6 +271,21 @@ body h1 {
 
 .fa.fa-trash-o {
     color: #d21515;
+}
+
+.fa.fa-angle-left {
+    color: #ffffff;
+    text-align: center;
+}
+
+.fa-border {
+    background-color: #0d7078;
+}
+
+.square {
+    height: 37px;
+    width: 37px;
+    background-color: #0d7078;
 }
 
 .page-item.active > .page-link {
